@@ -128,10 +128,15 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 .
 ├── .streamlit/ # Streamlit configuration files
+
 ├── models/ # Saved trained models
+
 ├── app.py # Streamlit app for deployment
+
 ├── PROJECT_IITNR(SCRATCH) FOR EC.ipynb # Jupyter notebook for Eye Closed (EC)
+
 ├── PROJECT_IITNR(SCRATCH) FOR EO.ipynb # Jupyter notebook for Eye Open (EO)
+
 ├── requirements.txt # Required dependencies
 
 ## 🔮 Future Work
