@@ -126,18 +126,21 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 ## Repository Structure
 
-.
-├── .streamlit/ # Streamlit configuration files
+├── .streamlit/                 # Streamlit configuration files (e.g., theme, settings).
 
-├── models/ # Saved trained models
+├── .vscode/                    # VS Code workspace settings (e.g., launch configs, extensions).
 
-├── app.py # Streamlit app for deployment
+├── models/                     # Directory containing saved/trained machine learning models.
 
-├── PROJECT_IIITNR(SCRATCH) FOR EC.ipynb # Jupyter notebook for Eye Closed (EC)
+├── PROJECT_IIITNR(SCRATCH) FOR EC.ipynb  # Jupyter notebook for Eye Closed (EC) EEG data preprocessing and model training.
 
-├── PROJECT_IIITNR(SCRATCH) FOR EO.ipynb # Jupyter notebook for Eye Open (EO)
+├── PROJECT_IIITNR(SCRATCH) FOR EO.ipynb  # Jupyter notebook for Eye Open (EO) EEG data preprocessing and model training
 
-├── requirements.txt # Required dependencies
+├── README.md                   # Project documentation: overview, setup, usage, and notes
+
+├── app.py                      # Streamlit application for deploying the trained models
+
+├── requirements.txt            # List of Python dependencies required for running the project
 
 ## 🔮 Future Work
 
