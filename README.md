@@ -121,7 +121,8 @@ The selected models (XGBoost for EO and AdaBoost for EC) are integrated into a S
 
 The app supports real-time prediction by processing EEG input and classifying subjects as Depressed / Healthy.
 
-Currently hosted on localhost as a proof-of-concept, demonstrating feasibility of clinical deployment.
+A live Streamlit demo of this project is hosted here:  
+https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 ## Repository Structure
 
