@@ -67,9 +67,9 @@ pip install -r requirements.txt
 ## ▶️ Running the Project
 1. Run the Jupyter Notebooks (for training & evaluation)
 
-PROJECT_IITNR(SCRATCH) FOR EO.ipynb → Eye Open condition
+PROJECT_IIITNR(SCRATCH) FOR EO.ipynb → Eye Open condition
 
-PROJECT_IITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition
+PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition
 
 You can open them in Jupyter Notebook or VS Code and re-run training steps.
 
@@ -133,9 +133,9 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 ├── app.py # Streamlit app for deployment
 
-├── PROJECT_IITNR(SCRATCH) FOR EC.ipynb # Jupyter notebook for Eye Closed (EC)
+├── PROJECT_IIITNR(SCRATCH) FOR EC.ipynb # Jupyter notebook for Eye Closed (EC)
 
-├── PROJECT_IITNR(SCRATCH) FOR EO.ipynb # Jupyter notebook for Eye Open (EO)
+├── PROJECT_IIITNR(SCRATCH) FOR EO.ipynb # Jupyter notebook for Eye Open (EO)
 
 ├── requirements.txt # Required dependencies
 
