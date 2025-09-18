@@ -1,5 +1,5 @@
 ## EEG-Based Depression Detection Using Machine Learning
-## 📌 Overview
+## 📌 Overview hwbw
 
 Depression is one of the leading causes of disability worldwide, affecting over 264 million people globally and 56 million in India alone. Current diagnostic methods rely heavily on subjective assessments (e.g., Beck Depression Inventory, Hamilton Depression Rating Scale), which may lead to misdiagnosis, underdiagnosis, or delayed treatment.
 
