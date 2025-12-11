@@ -125,7 +125,7 @@ A live Streamlit demo of this project is hosted here:
 https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 ## Repository Structure
-
+```
 ├── .streamlit/                 # Streamlit configuration files (e.g., theme, settings).
 
 ├── .vscode/                    # VS Code workspace settings (e.g., launch configs, extensions).
@@ -141,7 +141,7 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 ├── app.py                      # Streamlit application for deploying the trained models
 
 ├── requirements.txt            # List of Python dependencies required for running the project
-
+```
 ## 🔮 Future Work
 
 Extend study to larger and diverse datasets.
