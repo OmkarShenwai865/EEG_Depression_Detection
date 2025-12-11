@@ -142,6 +142,11 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 
 ├── requirements.txt            # List of Python dependencies required for running the project
 ```
+
+## 📸 Snapshots
+<img width="1365" height="594" alt="EEGdepdetect" src="https://github.com/user-attachments/assets/2d771c45-c4ed-4a8c-bb53-0f0dbb681557" />
+
+
 ## 🔮 Future Work
 
 Extend study to larger and diverse datasets.
