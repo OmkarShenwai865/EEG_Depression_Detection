@@ -20,7 +20,7 @@ Ensure robustness using subject-independent 5-fold cross-validation.
 Deploy the best-performing models in an interactive Streamlit application for real-time predictions.
 
 ## 📊 Dataset
-
+```
 Dataset Used: Mumtaz2016 EEG Dataset
 
 The EEG dataset used in this project is publicly available on [Figshare](https://figshare.com/articles/dataset/EEG-based_Diagnosis_and_Treatment_Outcome_Prediction).  
@@ -32,7 +32,7 @@ Subjects:
 95 Patients with Major Depressive Disorder (MDD)
 
 Recording Conditions: Eye Open (EO) and Eye Close (EC)
-
+```
 ## ⚙️ Methodology
 
 Preprocessing: EEG signal cleaning and segmentation.
@@ -48,22 +48,22 @@ Evaluation: Subject-dependent vs. subject-independent performance comparison.
 ## ⚙️ Installation
 
 ### Clone the repository:
-
+```
 git clone https://github.com/yourusername/eeg-depression-detection.git
 cd eeg-depression-detection
-
+```
 
 ### Create a virtual environment (recommended):
-
+```
 python -m venv venv
 source venv/bin/activate   # For Linux/Mac
 venv\Scripts\activate      # For Windows
-
+```
 
 ### Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 ## ▶️ Running the Project
 1. Run the Jupyter Notebooks (for training & evaluation)
 
@@ -74,8 +74,9 @@ PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition
 You can open them in Jupyter Notebook or VS Code and re-run training steps.
 
 2. Run the Streamlit App (for deployment)
+```
 streamlit run app.py
-
+```
 
 The app will launch in your browser (default: http://localhost:8501
 ), where you can upload EEG features and get predictions (Depressed / Healthy).
