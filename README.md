@@ -29,7 +29,7 @@
 5. Deploy the best-performing models in an interactive Streamlit application for real-time predictions.
 
 ## 📊 Dataset
-```
+
 1. Dataset Used: Mumtaz2016 EEG Dataset
 
 - The EEG dataset used in this project is publicly available on [Figshare](https://figshare.com/articles/dataset/EEG-based_Diagnosis_and_Treatment_Outcome_Prediction).  
@@ -41,7 +41,7 @@
 - 95 Patients with Major Depressive Disorder (MDD)
 
 - Recording Conditions: Eye Open (EO) and Eye Close (EC)
-```
+
 ## ⚙️ Methodology
 
 1. Preprocessing: EEG signal cleaning and segmentation.
