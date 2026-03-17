@@ -76,9 +76,13 @@ pip install -r requirements.txt
 ## ▶️ Running the Project
 1. Run the Jupyter Notebooks (for training & evaluation)
 
-``` PROJECT_IIITNR(SCRATCH) FOR EO.ipynb → Eye Open condition ```
+```
+PROJECT_IIITNR(SCRATCH) FOR EO.ipynb → Eye Open condition 
+```
 
-``` PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition ```
+```
+ PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition
+```
 
 - You can open them in Jupyter Notebook or VS Code and re-run training steps.
 
