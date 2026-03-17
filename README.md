@@ -30,17 +30,17 @@
 
 ## 📊 Dataset
 ```
-Dataset Used: Mumtaz2016 EEG Dataset
+1. Dataset Used: Mumtaz2016 EEG Dataset
 
-The EEG dataset used in this project is publicly available on [Figshare](https://figshare.com/articles/dataset/EEG-based_Diagnosis_and_Treatment_Outcome_Prediction).  
+- The EEG dataset used in this project is publicly available on [Figshare](https://figshare.com/articles/dataset/EEG-based_Diagnosis_and_Treatment_Outcome_Prediction).  
 
-Subjects:
+2. Subjects:
 
-87 Healthy controls
+- 87 Healthy controls
 
-95 Patients with Major Depressive Disorder (MDD)
+- 95 Patients with Major Depressive Disorder (MDD)
 
-Recording Conditions: Eye Open (EO) and Eye Close (EC)
+- Recording Conditions: Eye Open (EO) and Eye Close (EC)
 ```
 ## ⚙️ Methodology
 
