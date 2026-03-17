@@ -1,23 +1,32 @@
 ## EEG-Based Depression Detection Using Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-red)
+![EEG](https://img.shields.io/badge/Data-EEG-purple)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 📌 Overview
 
-Depression is one of the leading causes of disability worldwide, affecting over 264 million people globally and 56 million in India alone. Current diagnostic methods rely heavily on subjective assessments (e.g., Beck Depression Inventory, Hamilton Depression Rating Scale), which may lead to misdiagnosis, underdiagnosis, or delayed treatment.
+- Depression is one of the leading causes of disability worldwide, affecting over 264 million people globally and 56 million in India alone. Current diagnostic methods rely heavily on subjective assessments (e.g., Beck Depression Inventory, Hamilton Depression Rating Scale), which may lead to misdiagnosis, underdiagnosis, or delayed treatment.
 
-This project explores EEG (Electroencephalography)-based depression detection as an objective, quantifiable approach. EEG is non-invasive, cost-effective, and provides high temporal resolution, making it a promising tool for clinical support.
+- This project explores EEG (Electroencephalography)-based depression detection as an objective, quantifiable approach. EEG is non-invasive, cost-effective, and provides high temporal resolution, making it a promising tool for clinical support.
 
-The project develops an automated machine learning framework to classify depression from EEG signals under Eye Open (EO) and Eye Close (EC) conditions, with both subject-independent and subject-dependent evaluations.
+- The project develops an automated machine learning framework to classify depression from EEG signals under Eye Open (EO) and Eye Close (EC) conditions, with both subject-independent and subject-dependent evaluations.
 
 ## 🎯 Objectives
 
-Preprocess EEG signals and extract frequency-domain features using FFT.
+1. Preprocess EEG signals and extract frequency-domain features using FFT.
 
-Train and evaluate multiple machine learning models (SVM, Logistic Regression, KNN, Random Forest, AdaBoost, XGBoost).
+2. Train and evaluate multiple machine learning models (SVM, Logistic Regression, KNN, Random Forest, AdaBoost, XGBoost).
 
-Compare classification under Eye Open (EO) and Eye Close (EC) conditions.
+3. Compare classification under Eye Open (EO) and Eye Close (EC) conditions.
 
-Ensure robustness using subject-independent 5-fold cross-validation.
+4. Ensure robustness using subject-independent 5-fold cross-validation.
 
-Deploy the best-performing models in an interactive Streamlit application for real-time predictions.
+5. Deploy the best-performing models in an interactive Streamlit application for real-time predictions.
 
 ## 📊 Dataset
 ```
@@ -35,15 +44,15 @@ Recording Conditions: Eye Open (EO) and Eye Close (EC)
 ```
 ## ⚙️ Methodology
 
-Preprocessing: EEG signal cleaning and segmentation.
+1. Preprocessing: EEG signal cleaning and segmentation.
 
-Feature Extraction: Frequency-domain features derived from FFT across delta, theta, alpha, beta, and gamma bands.
+2. Feature Extraction: Frequency-domain features derived from FFT across delta, theta, alpha, beta, and gamma bands.
 
-Feature Selection: Identification of discriminative features (e.g., T6_beta, T6_theta, O2_theta).
+3.Feature Selection: Identification of discriminative features (e.g., T6_beta, T6_theta, O2_theta).
 
-Model Training: ML models trained separately for EO and EC under both validation settings.
+4. Model Training: ML models trained separately for EO and EC under both validation settings.
 
-Evaluation: Subject-dependent vs. subject-independent performance comparison.
+5. Evaluation: Subject-dependent vs. subject-independent performance comparison.
 
 ## ⚙️ Installation
 
@@ -67,19 +76,18 @@ pip install -r requirements.txt
 ## ▶️ Running the Project
 1. Run the Jupyter Notebooks (for training & evaluation)
 
-PROJECT_IIITNR(SCRATCH) FOR EO.ipynb → Eye Open condition
+``` PROJECT_IIITNR(SCRATCH) FOR EO.ipynb → Eye Open condition ```
 
-PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition
+``` PROJECT_IIITNR(SCRATCH) FOR EC.ipynb → Eye Closed condition ```
 
-You can open them in Jupyter Notebook or VS Code and re-run training steps.
+- You can open them in Jupyter Notebook or VS Code and re-run training steps.
 
 2. Run the Streamlit App (for deployment)
 ```
 streamlit run app.py
 ```
 
-The app will launch in your browser (default: http://localhost:8501
-), where you can upload EEG features and get predictions (Depressed / Healthy).
+- The app will launch in your browser (default: http://localhost:8501), where you can upload EEG features and get predictions (Depressed / Healthy).
 
 ## 🚀 Models and Results
 
@@ -118,12 +126,12 @@ The app will launch in your browser (default: http://localhost:8501
 ---
 ## 🚀 Deployment
 
-The selected models (XGBoost for EO and AdaBoost for EC) are integrated into a Streamlit web app.
+- The selected models (XGBoost for EO and AdaBoost for EC) are integrated into a Streamlit web app.
 
-The app supports real-time prediction by processing EEG input and classifying subjects as Depressed / Healthy.
+- The app supports real-time prediction by processing EEG input and classifying subjects as Depressed / Healthy.
 
-A live Streamlit demo of this project is hosted here:  
-https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
+- A live Streamlit demo of this project is hosted here:  
+   https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/ 
 
 ## Repository Structure
 ```
@@ -145,27 +153,41 @@ https://omkarshenwai865-eeg-depression-detection-app-v52tau.streamlit.app/
 ```
 
 ## 📸 Snapshots
+
+###ROC Curve
+- XGboost(EO)
+<img width="780" height="590" alt="Screenshot 2026-03-17 162216" src="https://github.com/user-attachments/assets/c48add27-f093-4c5b-a3e7-84fba48d41e8" />
+
+-Adaboost(EC)
+<img width="752" height="573" alt="Screenshot 2026-03-17 162301" src="https://github.com/user-attachments/assets/eccb63da-ffc5-4511-88f7-2a6ec74377b4" />
+
+###Confusion Matrix
+- XGboost(EO)
+<img width="794" height="592" alt="Screenshot 2026-03-17 162152" src="https://github.com/user-attachments/assets/8750b6bb-80c4-47c7-80ca-9f0fc0f3bc70" />
+
+-Adaboost(EC)
+<img width="719" height="581" alt="Screenshot 2026-03-17 162246" src="https://github.com/user-attachments/assets/78e2bae1-8ec4-4a00-bafb-ccd5e30d4db6" />
+
+
+##Streamlit Deployed
 <img width="1365" height="594" alt="EEGdepdetect" src="https://github.com/user-attachments/assets/2d771c45-c4ed-4a8c-bb53-0f0dbb681557" />
 
 
 ## 🔮 Future Work
 
-Extend study to larger and diverse datasets.
+1. Extend study to larger and diverse datasets.
 
-Incorporate deep learning architectures (CNN, RNN, Transformers) for raw EEG signal classification.
+2. Incorporate deep learning architectures (CNN, RNN, Transformers) for raw EEG signal classification.
 
-Explore real-time EEG acquisition and classification pipelines.
+3. Explore real-time EEG acquisition and classification pipelines.
 
-Develop a cloud-based deployment for clinical testing.
+4. Develop a cloud-based deployment for clinical testing.
 
 ## 👨‍💻 Author
 
-Name: Omkar Shenwai
-
-Role: CSE Student (handled ML model design, evaluation,prediction & deployment)
-
-Contributions: Data preprocessing, feature extraction, model development, accuracy comparison, and Streamlit deployment.  
+- Name: Omkar Shenwai
+- Role: CSE Student (handled ML model design, evaluation,prediction & deployment)
+- Contributions: Data preprocessing, feature extraction, model development, accuracy comparison, and Streamlit deployment.  
 
 ## ⚠️ Disclaimer
-
-This project is a proof-of-concept research framework and not a clinically certified diagnostic tool. It aims to demonstrate technical feasibility for potential clinical support applications.
+= This project is a proof-of-concept research framework and not a clinically certified diagnostic tool. It aims to demonstrate technical feasibility for potential clinical support applications.
