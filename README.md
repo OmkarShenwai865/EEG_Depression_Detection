@@ -48,7 +48,7 @@ Recording Conditions: Eye Open (EO) and Eye Close (EC)
 
 2. Feature Extraction: Frequency-domain features derived from FFT across delta, theta, alpha, beta, and gamma bands.
 
-3.Feature Selection: Identification of discriminative features (e.g., T6_beta, T6_theta, O2_theta).
+3. Feature Selection: Identification of discriminative features (e.g., T6_beta, T6_theta, O2_theta).
 
 4. Model Training: ML models trained separately for EO and EC under both validation settings.
 
@@ -83,6 +83,7 @@ pip install -r requirements.txt
 - You can open them in Jupyter Notebook or VS Code and re-run training steps.
 
 2. Run the Streamlit App (for deployment)
+   
 ```
 streamlit run app.py
 ```
@@ -154,18 +155,18 @@ streamlit run app.py
 
 ## 📸 Snapshots
 
-###ROC Curve
+### ROC Curve
 - XGboost(EO)
 <img width="780" height="590" alt="Screenshot 2026-03-17 162216" src="https://github.com/user-attachments/assets/c48add27-f093-4c5b-a3e7-84fba48d41e8" />
 
--Adaboost(EC)
+- Adaboost(EC)
 <img width="752" height="573" alt="Screenshot 2026-03-17 162301" src="https://github.com/user-attachments/assets/eccb63da-ffc5-4511-88f7-2a6ec74377b4" />
 
-###Confusion Matrix
+### Confusion Matrix
 - XGboost(EO)
 <img width="794" height="592" alt="Screenshot 2026-03-17 162152" src="https://github.com/user-attachments/assets/8750b6bb-80c4-47c7-80ca-9f0fc0f3bc70" />
 
--Adaboost(EC)
+- Adaboost(EC)
 <img width="719" height="581" alt="Screenshot 2026-03-17 162246" src="https://github.com/user-attachments/assets/78e2bae1-8ec4-4a00-bafb-ccd5e30d4db6" />
 
 
@@ -190,4 +191,4 @@ streamlit run app.py
 - Contributions: Data preprocessing, feature extraction, model development, accuracy comparison, and Streamlit deployment.  
 
 ## ⚠️ Disclaimer
-= This project is a proof-of-concept research framework and not a clinically certified diagnostic tool. It aims to demonstrate technical feasibility for potential clinical support applications.
+- This project is a proof-of-concept research framework and not a clinically certified diagnostic tool. It aims to demonstrate technical feasibility for potential clinical support applications.
